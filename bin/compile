@@ -58,3 +58,8 @@ set-env() {
 }
 set-env PATH '$HOME/.swift-bin:$PATH'
 set-env LD_LIBRARY_PATH '$HOME/.swift-lib'
+
+git clone https://github.com/hoedown/hoedown
+cd hoedown
+make
+make install
